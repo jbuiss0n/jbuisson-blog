@@ -1,13 +1,13 @@
 {
   "appDirectory": "app",
   "config": {
-    "moduleName": "enfer.config"
+    "moduleName": "jbuisson-blog.config"
   },
   "templates": {
-    "moduleName": "enfer.templates"
+    "moduleName": "jbuisson-blog.templates"
   },
   "translate": {
-    "moduleName": "enfer.translate"
+    "moduleName": "jbuisson-blog.translate"
   },
   "connect": {
     "httpPort": 9001,

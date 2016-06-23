@@ -74,7 +74,6 @@
     <Content Include="app\core\views\main.html" />
     <Content Include="app\index.html" />
     <Content Include="app\modules\console\views\main.html" />
-    <Content Include="packages.config" />
     <Content Include="bower.json" />
     <Content Include="build-config.json" />
     <Content Include="package.json" />
