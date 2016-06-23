@@ -1,0 +1,62 @@
+{
+  "appDirectory": "app",
+  "config": {
+    "moduleName": "enfer.config"
+  },
+  "templates": {
+    "moduleName": "enfer.templates"
+  },
+  "translate": {
+    "moduleName": "enfer.translate"
+  },
+  "connect": {
+    "httpPort": 9001,
+    "livereloadPort": 36000
+  },
+  "copy": {
+    "js": [
+      "bower_components/angular/angular.js",
+      "bower_components/angular-ui-router/release/angular-ui-router.js"
+    ],
+    "css": []
+  },
+  "keepUnminified": false,
+  "outputNames": {
+    "scripts": "scripts",
+    "styles": "styles"
+  },
+  "dependencies": {
+    "js": [
+      "bower_components/jquery/**/*.js",
+      "bower_components/angular/**/*.js",
+      "bower_components/angular-ui-router/**/*.js",
+      "config/**/*.js",
+      "core/**/*.js",
+      "modules/**/*.js"
+    ],
+    "less": [
+      "core/**/*.less",
+      "modules/**/*.less"
+    ],
+    "css": [
+      "core/**/*.css",
+      "modules/**/*.css"
+    ]
+  },
+  "filerev": {
+    "excludes": {
+      "images": [
+      ]
+    }
+  },
+  "testDependencies": [
+    "bower_components/bind-polyfill/index.js",
+    "bower_components/angular/angular.js",
+    "bower_components/angular-ui-router/release/angular-ui-router.js",
+    "bower_components/angular-mocks/angular-mocks.js",
+    "config/**/*.js",
+    "core/**/*.js",
+    "modules/**/*.js",
+    "../tests/**/*.test.js"
+  ]
+}

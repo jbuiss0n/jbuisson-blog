@@ -1,0 +1,6 @@
+{
+  "laxbreak":true,
+  "predef": ["angular"],
+  "node":true,
+  "boss":true
+}
